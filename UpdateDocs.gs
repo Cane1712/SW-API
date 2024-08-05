@@ -1,4 +1,4 @@
-const sekaiRes_asset = 'https://sekai-res.dnaroma.eu/file/sekai-assets/'
+const sekaiRes_asset = 'https://storage.sekai.best/sekai-jp-assets/'
 const minio_asset = 'https://minio.dnaroma.eu/sekai-assets/'
 
 const getRepoContent = (fileName) => {
