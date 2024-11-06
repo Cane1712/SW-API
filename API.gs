@@ -14,6 +14,34 @@ const fileIds = {
   versions: '141WTGhgct8DHzBQXDlIZDjK0r9-HXDrx'
 }
 
+const rootURLS = {
+  en: "https://raw.githubusercontent.com/Sekai-World/sekai-master-db-en-diff",
+  jp: "https://raw.githubusercontent.com/Sekai-World/sekai-master-db-jp-diff",
+}
+
+function cardPathFromBundle(bundle, root: keyof typeof rootURLS) {
+    return `${rootURLS[root]}/character/member/${bundle}_rip/`
+}
+
+const assetBundlePath = {
+  //resBUNDLE_rip/card[normal/after_training].png
+  card: "/character/member/",
+}
+
+const URLS = {
+  info: "userInformations",
+  event: "events",
+  stamp: "stamps",
+  music: "SPECIAL",
+  tip: "tips",
+  character: "gameCharacters",
+  unit: "unitProfiles",
+  card: "cards",
+  mission: "normalMissions",
+  gacha: "gachas"
+}
+
+function 
 
 /**
  * レスポンスを作成して返します
